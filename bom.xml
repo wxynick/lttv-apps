@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 北京兰贝科技有限公司版权所有 -->
+<project>
+
+    <dependencies>
+
+        <dependency>
+
+            <groupId>
+com.marsor.android.common
+            </groupId>
+
+            <artifactId>
+MarsorUtils
+            </artifactId>
+
+            <version>
+1.0.0-SNAPSHOT
+            </version>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+
+        <repository>
+
+            <id>
+MarsorRepository
+            </id>
+
+            <name>
+Marsor Maven Mirror
+            </name>
+
+            <url>
+http://maven.marsorstudio.cn:8088/
+            </url>
+        </repository>
+    </repositories>
+
+    <package>
+
+        <!-- 不区分大小写，逗号隔开的metaName,代表不同SDK的渠道标识符 -->
+
+        <channels keyname="UMENG_CHANNEL" >
+
+            <!--
+channel的数量代表最终生成的apk文件的数量 
+	
+            --><channel value="neitui9#010110470#01001020101046700010" />
+
+            <channel value="neitui8#010110469#01001020101046600010" />
+
+            <channel value="neitui7#010110468#01001020101046500010" />
+
+            <channel value="neitui6#010110467#01001020101046400010" />
+
+            <channel value="neitui5#010110466#01001020101046300010" />
+
+            <channel value="neitui4#010110465#01001020101046200010" />
+
+            <channel value="neitui3#010110464#01001020101046100010" />
+
+            <channel value="neitui2#010110463#01001020101046000010" />
+
+            <channel value="neitui1#010110462#01001020101045900010" />
+
+            <channel value="meituan#010110480#01001020101047700010" />
+
+            <channel value="gaode#010110498#01001020101053000010" />
+
+            <channel value="meitu#010110473#01001020101047000010" />
+
+            <channel value="neitui10#010110471#01001020101046800010" />
+
+            <channel value="WPSJ-game#010110476#01001020101047300010" />
+
+            <channel value="wandoujiacpd#010110474#01001020101047100010" />
+
+            <channel value="Sinaweibotrans#010110460#01001020101045700010" />
+
+            <channel value="kuaidi#010110484#01001020101048200010" />
+
+            <channel value="qqllq#010110485#01001020101051700010" />
+
+            <channel value="easou#010110477#01001020101047400010" />
+
+            <channel value="wannianli#010110479#01001020101047600010" />
+
+            <channel value="kugou#010110478#01001020101047500010" />
+
+            <channel value="aiba#010110499#01001020101053100010" />
+
+            <channel value="Letvm-kadun#010110487#01001020101051900010" />
+
+            <channel value="Letvm-pause#010110486#01001020101051800010" />
+
+        </channels>
+
+        <keystore
+            passwd="dkeu*&amp;kdue"
+            path="E:\letv\work\letv-framework-demo\letvAndroidClientKey" >
+
+            <alias
+                name="letvAndroidClientKey"
+                passwd="dkeu*&amp;kdue" />
+        </keystore>
+
+        <outpath value="e:\dist\android\" />
+    </package>
+
+</project>
